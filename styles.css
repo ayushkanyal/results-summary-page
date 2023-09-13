@@ -1,0 +1,25 @@
+html,body{
+    font-family: sans-serif;
+    
+}
+
+.container{
+    border: 1px solid black;
+    height: 20rem;
+    display: flexbox;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 4%;
+    text-align: center;
+}
+
+.result-heading{
+    color: hsl(241, 100%, 89%);
+}
+
+#result{
+    background-color: hsl(252, 100%, 67%);
+    color: white;
+}
