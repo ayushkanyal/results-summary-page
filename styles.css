@@ -1,6 +1,11 @@
 html,body{
     font-family: sans-serif;
-    
+}
+
+#content-section{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .container{
@@ -8,8 +13,7 @@ html,body{
     height: 20rem;
     display: flexbox;
     flex-wrap: wrap;
-    width: 30%;
-    margin: 0 auto;
+    width: 40%;
     box-sizing: border-box;
     padding: 4%;
     text-align: center;
@@ -17,9 +21,21 @@ html,body{
 
 .result-heading{
     color: hsl(241, 100%, 89%);
+    margin-bottom: 20%;
 }
 
 #result{
     background-color: hsl(252, 100%, 67%);
     color: white;
+}
+
+.circle{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: hsl(241, 81%, 54%);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
