@@ -1,59 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="CSS/styles.css">
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Hanken+Grotesk">
-  <title>Frontend Mentor | Results summary component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Hanken+Grotesk"
+    />
+    <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-<section id="content-section">
-  <div id="result" class="container"> 
-    <div>
-    <p class="result-heading">Your Result</p>
-    </div>
-    <div class="circle">
-      <div id="result-number">
-      <p>76</p>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section id="content-section">
+      <div id="result" class="container">
+        <div>
+          <p class="result-heading">Your Result</p>
+        </div>
+        <div class="circle">
+          <div id="result-number">
+            <p>76</p>
+          </div>
+          <div id="maximum-number">
+            <p>of 100</p>
+          </div>
+        </div>
+        <p>Great</p>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
       </div>
-      <div id="maximum-number">
-      <p>of 100</p>
+      <div id="summary" class="container">
+        <p>Summary</p>
+
+        <p>Reaction<span>80 / 100</span></p>
+
+        <p>Memory<span>92 / 100</span></p>
+
+        <p>Verbal<span></span>61 / 100</p>
+
+        <p>Visual<span></span>72 / 100</p>
+
+        <button>Continue</button>
       </div>
+    </section>
+
+    <div class="attribution">
+      <p>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >.
+      </p>
+      Coded by <a href="#">Ayush Kanyal</a>.
     </div>
-    <p>Great</p>
-    <p>You scored higher than 65% of the people who have taken these tests.
-    </p>
-    </div> 
-  <div id="summary" class="container"> 
-    <p>Summary</p>
-
-    <p>Reaction<span>80 / 100</span>
-    </p>
-
-    <p>Memory<span>92 / 100</span></p>
-    
-    <p>Verbal<span></span>61 / 100</p>
-    
-    <p>Visual<span></span>72 / 100</p>
-
-    <button>Continue</button>
-      
-  </div>  
-</section>
-
-<div class="attribution">
-  <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. </p>
-  Coded by <a href="#">Ayush Kanyal</a>.
-</div>
-</body>
+  </body>
 </html>
