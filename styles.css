@@ -16,7 +16,7 @@ html,body{
     flex-wrap: wrap;
     width: 40%;
     max-width: 220px;
-    padding: 2rem 2.5rem;
+    padding: 1.5rem 2.2rem;
 }
 
 .result-heading{
@@ -51,13 +51,13 @@ html,body{
 #result-exclamation{
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 #result-percentile{
     font-size: 13px;
     color: hsl(241, 100%, 89%);
-    max-width: 90%;
+    width: 77%;
     margin: 0 auto;
 }
 
@@ -67,4 +67,16 @@ html,body{
     z-index: -1;
     position: relative;
     right: 3%;
+    width: 34%;
+    padding-left: 7%;
+}
+
+#summary-title{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 6%;
+}
+
+.score{
+    
 }
