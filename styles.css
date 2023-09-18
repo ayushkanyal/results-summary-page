@@ -78,5 +78,25 @@ html,body{
 }
 
 .score{
-    
+    margin-left: 50px;
+}
+
+.score-tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    position: relative;
+    top: 5px;
+    margin-right: 2px;
+}
+
+.gray{
+    color:gray
+}
+
+.btn{
+
 }
