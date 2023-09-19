@@ -102,29 +102,32 @@ img{
 }
 
 .btn{
-    border-radius: 40%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     width: 90%;
     margin: 0 auto;
     color: white;
     background-color: hsl(224, 30%, 27%);
     padding: 4% 20%;
     font-size: 15px;
-    margin-top: 12px;
+    margin-top: 14px;
     margin-left: 17px;
 }
 
 .reaction{
-    background-image: linear-gradient( 110deg, hsl(0, 0%, 100%), hsl(0, 100%, 67%) );
+    background-color: hsla(0, 100%, 67%, 0.1); 
 }
 
 .memory{
-    background-image: linear-gradient( 110deg, hsl(0, 0%, 100%), hsl(39, 100%, 56%) );
+    background-color: hsla(39, 100%, 56%, 0.1);
 }
 
 .verbal{
-    background-image: linear-gradient( 110deg, hsl(0, 0%, 100%), hsl(166, 100%, 37%) );
+    background-color: hsla(166, 100%, 37%, 0.1);
 }
 
 .visual{
-    background-image: linear-gradient( 110deg, hsl(0, 0%, 100%), hsl(234, 85%, 45%) );
+    background-color: hsla(234, 85%, 45%, 0.1);
 }
