@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;500&display=swap');
+
 html,body{
     font-family: "Hanken Grotesk", sans-serif;
 }
@@ -46,6 +48,9 @@ html,body{
     font-weight: 600;
     margin: 0px;
     padding: 0px;
+    position: relative;
+    top: 9px;
+    left: 3px;
 }
 
 #result-exclamation{
@@ -75,6 +80,7 @@ html,body{
     font-size: 18px;
     font-weight: 700;
     margin-top: 6%;
+    color: hsl(224, 30%, 27%);
 }
 
 .score{
@@ -91,10 +97,14 @@ html,body{
     margin-bottom: 3%
 }
 
+.center{
+    display: flex;
+    align-items: center;
+}
+
 img{
     position: relative;
-    top: 5px;
-    margin-right: 2px;
+    margin-right: 6px;
 }
 
 .gray{
@@ -102,32 +112,51 @@ img{
 }
 
 .btn{
+    border-color: inherit;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     color: white;
     background-color: hsl(224, 30%, 27%);
-    padding: 4% 20%;
+    padding: 5% 20%;
     font-size: 15px;
     margin-top: 14px;
     margin-left: 17px;
 }
 
 .reaction{
-    background-color: hsla(0, 100%, 67%, 0.1); 
+    background-color: hsla(0, 100%, 67%, 0.06); 
+    
+}
+
+.reaction > p:first-child{
+    color: hsl(0, 100%, 67%);
 }
 
 .memory{
-    background-color: hsla(39, 100%, 56%, 0.1);
+    background-color: hsla(39, 100%, 56%, 0.06);
 }
 
+.memory > p:first-child{
+    color: hsl(39, 100%, 56%);
+}
+
+
 .verbal{
-    background-color: hsla(166, 100%, 37%, 0.1);
+    background-color: hsla(166, 100%, 37%, 0.06);
+}
+
+.verbal > p:first-child{
+    color: hsl(166, 100%, 37%);
 }
 
 .visual{
-    background-color: hsla(234, 85%, 45%, 0.1);
+    background-color: hsla(234, 85%, 45%, 0.06);
+}
+
+.visual > p:first-child{
+    color: hsl(234, 85%, 45%);
 }
