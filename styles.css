@@ -150,17 +150,6 @@ img{
 }
 
 
-.verbal{
-    background-color: hsla(166, 100%, 37%, 0.06);
-}
-
-.verbal > p:first-child{
-    color: hsl(166, 100%, 37%);
-}
-
-.visual{
-    background-color: hsla(234, 85%, 45%, 0.06);
-}
 
 .visual > p:first-child{
     color: hsl(234, 85%, 45%);
