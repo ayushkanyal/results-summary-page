@@ -20,20 +20,6 @@ html,body{
     box-shadow: 0 0 25px  hsl(221, 100%, 96%);
 }
 
-@media (max-width: 376px) {
-    #content-section{
-        display: block;
-        margin: 0px;
-    }
-
-    .container{
-        width: 100%;
-        max-width: 100vw;
-        border-top-right-radius: 0px;
-        border-top-left-radius: 0px;
-    }
-}
-
 .result-heading{
     color: hsl(241, 100%, 89%);
     margin-bottom: 10%;
@@ -178,4 +164,33 @@ img{
 
 .visual > p:first-child{
     color: hsl(234, 85%, 45%);
+}
+
+@media (max-width: 376px) {
+
+    #content-section{
+        display: block;
+        margin: 0px;
+    }
+
+    .container{
+        width: 100%;
+        min-width: fit-content;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+
+    #summary{
+        width: inherit;
+        right: 0%;
+        padding: 1.5rem 3rem;
+    }
+
+    .score-tab{
+        min-width: 240px;
+    }
+
+    .btn{
+        min-width: 250px;
+    }
 }
